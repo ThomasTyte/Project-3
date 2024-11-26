@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import TodoList from './components/TodoList';
-import TodoForm from './components/TodoForm';
-import ContactForm from './components/ContactForm';
+import Navbar from './Features/Navbar';
+import TodoList from './Features/Todolist';
+import TodoForm from './Features/Todoform';
+import ContactForm from './Features/ContactForm';
 
 const App = () => {
     const [todos, setTodos] = useState([]);
